@@ -615,6 +615,7 @@ aside * {
     letter-spacing: 1px;
     display: flex;
     align-items: center;
+    gap: .5rem;
 }
 
 .gallery-title h2 {
@@ -679,4 +680,248 @@ aside * {
         transform: translateY(0);
         opacity: 1;
     }
+}
+
+/*Galerry_section*/
+.testimonials {
+  padding: 100px;
+  height: 350px;
+  max-width: 1400px;
+  margin: auto;
+  background: url("./images/Testimonials/testimonials-bg.jpg") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.testimonials::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 4, 97, 0.71);
+  z-index: 1;
+}
+
+.matt_brandon_image{
+  position: relative;
+  z-index: 2;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #251c7f;
+  padding: .5rem;
+  margin: 0 auto;
+}
+.matt_brandon_image img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+/*Stars*/
+.stars{
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1400px;
+}
+.stars i {
+  color: orange;
+  font-size: 20px;
+}
+.z-index{
+  position: relative;
+  z-index: 2;
+}
+.matt_brandon_h2{
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+.freelancer_p{
+  font-size: 1.5rem;
+  color: #999;
+  text-align: center;
+}
+.tutuq_belgi{
+  font-style: italic;
+  font-size: 4rem;
+  color: #999;
+}
+.tutuq_belgili_gap{
+  font-size: 1.7rem;
+  color: white;
+  font-style: italic;
+  width: 1000px;
+  text-align: center;
+  line-height: .8;
+}
+
+/*nuqtalar*/
+.nuqtalar{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap:  1rem;
+}
+.nuqtalar div{
+  width: 15px;
+  height: 15px;
+  background-color: #544D7C;
+  border-radius: 50%;
+}
+.yolgiz_div{
+  background-color:white !important;
+}
+ /*check_our_team*/
+ /*Galerry_section*/
+.check_our_team{
+  padding: 100px;
+  height:auto   ;
+  max-width: 1400px;
+  margin-bottom: 3rem;
+  margin: auto;
+  position: relative;
+}
+.our_team{
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  flex-wrap: wrap;
+  gap: 2rem;
+  position: relative;
+}
+.team_items img{
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.team_items{
+  position: relative; 
+}
+.team_items::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10rem;
+  z-index: 1;
+  box-sizing: border-box;
+}
+.info {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 85%;
+  padding: 20px 15px;
+  transform: translateY(60px);
+  z-index: 2;
+  margin-left: 1.7rem; 
+  background: white;
+  box-shadow: 0px 2px 15px rgba(0,0,0,0.1);  
+}
+.info h4 {
+  margin: 0;
+  color: #10058C;
+  font-size: 18px;
+}
+
+.info p {
+  margin: 3px 0;
+  font-size: 14px;
+  color: #777;
+  font-style: italic;
+}
+
+.socials a {
+  color: #999;
+  font-size: 14px;
+  margin-right: 8px;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #10058C;
+}
+
+/*plan_div*/
+.plan_div{
+    max-width: 1400px;
+    padding: 100px;
+    margin: auto;
+    height: auto
+}
+.plan_box{
+    max-width:1300px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    gap:30px;
+    height: 600px;
+}
+.plan_box div{
+    background-color:#F1FDFB;
+    padding: 2rem;
+}
+.free_plan{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #10058C;
+}
+.uilam{
+    font-size: 1.5rem;
+    opacity: .8;
+}
+.sup{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    opacity: .5;
+}
+.sup span{
+    color: rgb(17, 199, 17);
+    font-weight: 600;
+    font-size: 4rem;
+    opacity: 1;
+}
+.free_trial_button{
+    width: 95%;
+    margin-left: .8rem;
+    padding: 1.5rem;
+    background-color: #F1FDFB;
+    font-weight: 500;
+    font-size: 1.7rem;
+    color: rgb(131, 130, 130);
+    border: 1px solid #999;
+    border-radius: .3rem;
+    transition: background-color .4s ease;
+}
+.free_trial_button:hover{
+    background-color: #00c37a;
+    color: white;
+}
+.green_button{
+    background-color: #00c37a;
+    color: white;
+    border: none;
+}
+.no_credit{
+    font-size: 1.4rem;
+    opacity: .9;
+    width: 100%;
+    text-align: center;
+}
+.pricing_p{
+    font-size: 1.5rem;
+}
+.bi-x{
+    color: crimson;
+}
+.opacity{
+    opacity: .5;
+    text-decoration: line-through;
 }
