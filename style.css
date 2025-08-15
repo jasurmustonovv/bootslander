@@ -925,3 +925,153 @@ aside * {
     opacity: .5;
     text-decoration: line-through;
 }
+
+/*Frequently_asked*/
+.frequently_asked {
+    max-width: 1400px;
+    margin: auto;
+    background-color: #F4F5FE;
+    padding: 100px;
+    display: flex;
+    column-gap: 4rem;
+}
+.asked{
+    width: 60%;
+}
+.frequently_questions span{
+    color:#10058c;
+    font-weight: 600;
+}
+.frequently_questions{
+    font-size: 3.5rem;
+    font-weight: 300;
+    color:#1e11af;
+}
+.frequently_asked_p{
+    font-size: 1.7rem;
+    margin-bottom: 4rem;
+}
+.frequently_questions_div {
+    max-width: 650px;
+    padding: 17px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    border-radius: 4px;
+    font-family: sans-serif;
+    margin-bottom: 3rem;
+}
+
+.frequently_questions_div i.bi-question-circle {
+    color: #25D366;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 18px;
+}
+
+.frequently_questions_div span {
+    color: #0B058C;
+    font-weight: 500;   
+    font-size: 1.8rem;
+    margin-right: 1rem;
+    text-align:left;
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.frequently_questions_div i.bi-chevron-right {
+    color: #777;
+    font-size: 14px;
+}
+.frequently_image{
+    max-width: 570px;
+}
+.frequently_image img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*check_our_contact*/
+.check_our_contact{
+    max-width: 1400px;
+    margin: auto;
+    background-color: white;
+    padding: 100px;
+    column-gap: 4rem;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact_our{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+.auto_fill{
+    width: 40px;
+    height: 40px;
+    background-color: #F4F5FE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auto_fill i{
+    font-size: 22px;
+    color: #07d388;
+}
+.address{
+    margin: 0;
+    font-size: 2rem;
+    color: #0B058C;
+}
+.adam_street{
+    font-size: 1.2rem;
+    color: #666;
+}
+/*Form*/
+.contact-form {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .contact-form .row {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  input,
+  textarea {
+    max-width: 900px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    color: #999;
+  }
+  .contact-form textarea {
+    min-height: 150px;
+  }
+  
+  .contact-form button {
+    display: block;
+    margin: 15px auto 0;
+    padding: 14px 24px;
+    background: #1fd182;
+    color: #fff;
+    border-radius: 1.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color .4s ease-in;
+  }
+  .contact-form button:hover{
+    background: #28e791;
+  }
