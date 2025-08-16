@@ -996,7 +996,8 @@ aside * {
 
 /*check_our_contact*/
 .check_our_contact{
-    max-width: 1400px;
+    max-width: 144км
+     00px; 
     margin: auto;
     background-color: white;
     padding: 100px;
@@ -1075,3 +1076,133 @@ aside * {
   .contact-form button:hover{
     background: #28e791;
   }
+
+  /*footer*/
+  footer{
+    max-width: 1400px;
+    margin: auto;
+    padding: 30px 100px;
+    background-color: #08005E;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  footer .bootslander{
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+  }
+  footer .adam_aiob{
+    font-size:1.5rem;
+    color: rgb(230, 221, 221);
+    margin-bottom: 1.3rem;
+  }
+  .adam_aiob span{
+    font-size: 1.5rem;
+    color:white;
+    margin-bottom: 1rem;
+  }
+  .bottomcha{
+    margin-bottom: 1rem;
+  }
+  /*social_icons*/
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 2rem;
+  }
+  
+  .social-icons a {
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid #999;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(228, 224, 224);              
+    font-size: 15px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    border-color: #4fb18f;
+    color: #4fb18f;   
+  }
+  
+  /*flexcha*/
+  .flexcha{
+    display: flex;
+    margin: auto;
+    column-gap: 10rem;
+  }
+  .footercha h2{
+    color: white;
+    font-size: 1.5rem;
+  }
+  .footercha p a{
+    color: #b1b1b1;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: color .4s ease;
+  }
+  .footercha p a:hover{
+    color: #07d388;
+}
+
+/*subscribe*/
+.subscribe{
+    color: white;
+    font-size: 1.5rem;
+    max-width: 500px;
+    line-height: 1.5;
+}
+.subscribe_div{
+    max-width: 500px;
+    height:auto;
+    border: 1px solid #666;
+    border-radius: .4rem;
+    display: flex;
+    justify-content:right;
+}
+.suubscribe{
+    padding: 1.5rem 3rem;
+    background-color: #00c37a;
+    border: none;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: .4rem;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out;
+}
+.suubscribe:hover{
+    background-color: #01ad6e;
+}
+.last_footer{
+    background-color:#08005E;
+    max-width: 1400px;
+    padding: 30px 100px;
+    display: flex;
+}
+.copyright{
+    color: white;
+    font-size: 1.4rem;
+}
+.copyright_span{
+    font-weight: 600;
+}
+.designed{
+    color: white;
+    font-size: 1.4rem;
+}
+.designed a{
+    color: #00c37a;
+    text-decoration: none;
+}
+
+.last_footer div{
+    margin: 0 auto;
+    text-align: center;
+}
