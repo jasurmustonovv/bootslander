@@ -2026,11 +2026,19 @@ footer .adam_aiob {
 }
 
 @media only screen and (max-width: 428px) {
-
+    .hamburger{
+        font-size: 2.4rem;
+    }
     /*aside*/
     aside {
         padding: 0 25px;
         height: 1180px;
+    }
+
+    /*logo*/
+    .logo h2 {
+        color: white;
+        font-size: 2.2rem;
     }
 
     /*Hero img*/
@@ -2057,7 +2065,7 @@ footer .adam_aiob {
 
     .whitedivv {
         margin-top: 80px;
-        padding: 0 30px;
+        padding: 0 23px;
     }
 
     .about_us p {
@@ -2104,7 +2112,7 @@ footer .adam_aiob {
 
     /*Our details*/
     .our_details {
-        padding: 50px 20px;
+        padding: 50px 10px;
         display: flex;
         flex-wrap: wrap;
         row-gap: 2rem;
@@ -2112,10 +2120,16 @@ footer .adam_aiob {
     }
 
     .check_our_details img {
-        max-width: 400px;
+        max-width: 380px;
         height: auto;
     }
-
+    /*voluptatem*/
+     .voluptatem {
+        font-size: 2rem;
+        max-width: 400px;
+        line-height: 1.2;
+        color: #10058c;
+}
     .voluptatem_p {
         width: 380px;
     }
@@ -2190,34 +2204,261 @@ footer .adam_aiob {
         width: 100%;
         margin: 0;
     }
+
     .flexbox {
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
     }
-        /*footer*/
-        footer {
-            padding: 30px 20px;
-            height: auto;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content:flex-start;
-            gap: 1rem;
-        }
-        .subscribe {
-            font-size: 1.3rem;
-        }
-        .subscribe_div {
-            max-width: 390px;
-        }
-        .last_footer {
-            padding: 30px 20px;
-        }
-        .copyright {
-            font-size: 1.3rem;
-        }
-        .designed {
-            font-size: 1.3rem;
-        }
-        
+
+    /*footer*/
+    footer {
+        padding: 30px 20px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+
+    .subscribe {
+        font-size: 1.3rem;
+    }
+
+    .subscribe_div {
+        max-width: 390px;
+    }
+
+    .last_footer {
+        padding: 30px 20px;
+    }
+
+    .copyright {
+        font-size: 1.3rem;
+    }
+
+    .designed {
+        font-size: 1.3rem;
+    }
+
+}
+@media only screen and (max-width: 393px) {
+    .hamburger{
+        font-size: 2.2rem;
+    }
+    /*aside*/
+    aside {
+        padding: 0 18px;
+        height: 1180px;
+    }
+
+    /*logo*/
+    .logo h2 {
+        color: white;
+        font-size: 2.2rem;
+    }
+
+    /*Hero img*/
+    .hero-image img {
+        max-width: 350px;
+        height: auto;
+        width: 100%;
+    }
+
+    .navigation {
+        padding: 0 2rem;
+    }
+
+    /*aside*/
+    .aside_bootslander h1 {
+        font-size: 3rem;
+    }
+
+    .aside_bootslander p {
+        font-size: 2.2rem;
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .whitedivv {
+        margin-top: 50px;
+        padding: 0 20px;
+        height: auto;
+    }
+
+    .about_us p {
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .gridbox .city_div {
+        max-width: 345px;
+        width: 100%;
+        height: 350px;
+    }
+
+    .gridbox {
+        max-width: 300px;
+        height: 1500px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        margin-bottom: 6rem;
+    }
+
+    .bottom {
+        transform: translateY(0);
+    }
+
+    .about_us {
+        margin-bottom: 3rem;
+    }
+
+    /*gridbox2*/
+
+    .gridbox2 {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+        padding: 100px 17px;
+        margin-top: 900px;
+    }
+
+    /*Our table*/
+    .stats {
+        padding: 50px 20px;
+    }
+
+    /*Our details*/
+    .our_details {
+        padding: 50px 15px;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+        height: auto;
+    }
+
+    .check_our_details img {
+        max-width: 350px;
+        height: auto;
+    }
+    /*voluptatem*/
+     .voluptatem {
+        font-size: 2rem;
+        max-width: 370px;
+        height: auto;
+        line-height: 1.2;
+        color: #10058c;
+}
+    .voluptatem_p {
+        width: 360px;
+    }
+
+    .lorem_p {
+        width: 380px;
+    }
+
+    .ullamco {
+        max-width: 370px;
+        line-height: 1.5;
+        font-weight: 500;
+        color: #666;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /*Galerry_section*/
+    .gallery-section {
+        padding: 100px 25px;
+    }
+
+    .gallery-grid {
+        gap: 5px;
+    }
+
+    /*Galerry_section*/
+    .testimonials {
+        padding: 50px 8cqi;
+        height: 450px;
+    }
+
+    .check_our_team {
+        padding: 100px 20px;
+    }
+
+    /*plan_div*/
+    .plan_div {
+        max-width: 1400px;
+        padding: 100px 27px;
+    }
+
+    /*Frequently_asked*/
+    .frequently_asked {
+        padding: 10px 15px;
+        display: flex;
+        column-gap: 4rem;
+    }
+
+    .frequently_image {
+        padding: 0 auto;
+        margin: 0;
+        max-width: 36 0px;
+    }
+
+    .frequently_asked_p {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .frequently_questions_div {
+        max-width: 228px;
+    }
+
+    /*check_our_contact*/
+    .check_our_contact {
+        padding: 100px 20px;
+    }
+
+    /*Form*/
+    .contact-form {
+        max-width: 328px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .flexbox {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    /*footer*/
+    footer {
+        padding: 30px 20px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+
+    .subscribe {
+        font-size: 1.3rem;
+        max-width: 320px;
+    }
+
+    .subscribe_div {
+        max-width: 350px;
+    }
+
+    .last_footer {
+        padding: 30px 20px;
+    }
+
+    .copyright {
+        font-size: 1.2rem;
+    }
+
+    .designed {
+        font-size: 1.2rem;
+    }
+
 }
