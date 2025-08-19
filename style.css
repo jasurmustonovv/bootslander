@@ -2026,9 +2026,10 @@ footer .adam_aiob {
 }
 
 @media only screen and (max-width: 428px) {
-    .hamburger{
+    .hamburger {
         font-size: 2.4rem;
     }
+
     /*aside*/
     aside {
         padding: 0 25px;
@@ -2123,13 +2124,15 @@ footer .adam_aiob {
         max-width: 380px;
         height: auto;
     }
+
     /*voluptatem*/
-     .voluptatem {
+    .voluptatem {
         font-size: 2rem;
         max-width: 400px;
         line-height: 1.2;
         color: #10058c;
-}
+    }
+
     .voluptatem_p {
         width: 380px;
     }
@@ -2242,10 +2245,12 @@ footer .adam_aiob {
     }
 
 }
+
 @media only screen and (max-width: 393px) {
-    .hamburger{
+    .hamburger .bi-list {
         font-size: 2.2rem;
     }
+
     /*aside*/
     aside {
         padding: 0 18px;
@@ -2338,17 +2343,19 @@ footer .adam_aiob {
     }
 
     .check_our_details img {
-        max-width: 350px;
+        max-width: 345px;
         height: auto;
     }
+
     /*voluptatem*/
-     .voluptatem {
+    .voluptatem {
         font-size: 2rem;
         max-width: 370px;
         height: auto;
         line-height: 1.2;
         color: #10058c;
-}
+    }
+
     .voluptatem_p {
         width: 360px;
     }
@@ -2400,7 +2407,7 @@ footer .adam_aiob {
     .frequently_image {
         padding: 0 auto;
         margin: 0;
-        max-width: 36 0px;
+        max-width: 358px;
     }
 
     .frequently_asked_p {
@@ -2409,7 +2416,14 @@ footer .adam_aiob {
     }
 
     .frequently_questions_div {
-        max-width: 228px;
+        max-width: 327px;
+        width: 100%;
+    }
+
+    .info {
+        width: 85%;
+        padding: 20px 15px;
+        margin-left: 1.2rem;
     }
 
     /*check_our_contact*/
@@ -2447,6 +2461,807 @@ footer .adam_aiob {
 
     .subscribe_div {
         max-width: 350px;
+    }
+
+    .last_footer {
+        padding: 30px 20px;
+    }
+
+    .copyright {
+        font-size: 1.2rem;
+    }
+
+    .designed {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 376px) {
+    .hamburger .bi-list {
+        font-size: 2.2rem;
+    }
+
+    /*aside*/
+    aside {
+        padding: 0 17px;
+        height: 1180px;
+    }
+
+    /*logo*/
+    .logo h2 {
+        color: white;
+        font-size: 2.2rem;
+    }
+
+    /*Hero img*/
+    .hero-image img {
+        max-width: 340px;
+        height: auto;
+        width: 100%;
+    }
+
+    .navigation {
+        padding: 0 2rem;
+    }
+
+    /*aside*/
+    .aside_bootslander h1 {
+        font-size: 3rem;
+    }
+
+    .aside_bootslander p {
+        font-size: 2.2rem;
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .whitedivv {
+        margin-top: 50px;
+        padding: 0 15px;
+        height: auto;
+    }
+
+    /*About_us*/
+    .about_us .about {
+        padding: 1.5rem 3rem;
+        font-size: 1.5rem;
+    }
+
+    .about_us h2 {
+        font-size: 3rem;
+        max-width: 500px;
+    }
+
+    .about_us p {
+        max-width: 330px;
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+    .about_us .read_more {
+        padding: 1.4rem 2rem;
+        font-size: 1.5rem;
+    }
+
+    .gridbox .city_div {
+        max-width: 340px;
+        width: 100%;
+        height: 350px;
+    }
+
+    .gridbox {
+        max-width: 380px;
+        height: 1500px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        margin-bottom: 6rem;
+    }
+
+    .bottom {
+        transform: translateY(0);
+    }
+
+    .about_us {
+        margin-bottom: 3rem;
+    }
+
+    /*gridbox2*/
+
+    .gridbox2 {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+        padding: 100px 17px;
+        margin-top: 900px;
+    }
+
+    /*Our table*/
+    .stats {
+        padding: 50px 20px;
+    }
+
+    /*Our details*/
+    .our_details {
+        padding: 50px 15px;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+        height: auto;
+    }
+
+    .check_our_details img {
+        max-width: 320px;
+        height: auto;
+    }
+
+    /*voluptatem*/
+    .voluptatem {
+        font-size: 2rem;
+        max-width: 320px;
+        height: auto;
+        line-height: 1.2;
+        color: #10058c;
+    }
+
+    .voluptatem_p {
+        width: 320px;
+    }
+
+    .lorem_p {
+        width: 320px;
+    }
+
+    .ullamco {
+        max-width: 320px;
+        line-height: 1.5;
+        font-weight: 500;
+        color: #666;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .voluptatem_p2 {
+        font-size: 1.5rem;
+        max-width: 320px;
+    }
+
+    /*Galerry_section*/
+    .gallery-section {
+        padding: 100px 25px;
+    }
+
+    .gallery-grid {
+        gap: 5px;
+    }
+
+    /*Galerry_section*/
+    .testimonials {
+        padding: 50px 8cqi;
+        height: 450px;
+    }
+
+    .check_our_team {
+        padding: 100px 18px;
+    }
+
+    /*plan_div*/
+    .plan_div {
+        max-width: 1400px;
+        padding: 100px 27px;
+    }
+
+    /*Frequently_asked*/
+    .frequently_asked {
+        padding: 10px 15px;
+        display: flex;
+        column-gap: 4rem;
+    }
+
+    .frequently_image {
+        padding: 0 auto;
+        margin: 0;
+        max-width: 330px;
+    }
+
+    .frequently_asked_p {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .frequently_questions_div {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .info {
+        width: 85%;
+        padding: 20px 15px;
+        margin-left: 1rem;
+    }
+
+    /*check_our_contact*/
+    .check_our_contact {
+        padding: 100px 20px;
+    }
+
+    /*Form*/
+    .contact-form {
+        max-width: 300px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .flexbox {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    /*footer*/
+    footer {
+        padding: 30px 20px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+
+    .subscribe {
+        font-size: 1.3rem;
+        max-width: 320px;
+    }
+
+    .subscribe_div {
+        max-width: 350px;
+    }
+
+    .last_footer {
+        padding: 30px 20px;
+    }
+
+    .copyright {
+        font-size: 1.2rem;
+    }
+
+    .designed {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    .hamburger .bi-list {
+        font-size: 2.2rem;
+    }
+
+    /*aside*/
+    aside {
+        padding: 0 15px;
+        height: 1180px;
+    }
+
+    /*logo*/
+    .logo h2 {
+        color: white;
+        font-size: 2.2rem;
+    }
+
+    /*Hero img*/
+    .hero-image img {
+        max-width: 323px;
+        height: auto;
+        width: 100%;
+    }
+
+    .navigation {
+        padding: 0 2rem;
+    }
+
+    /*aside*/
+    .aside_bootslander h1 {
+        font-size: 3rem;
+    }
+
+    .aside_bootslander p {
+        font-size: 2.2rem;
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .whitedivv {
+        margin-top: 50px;
+        padding: 0 15px;
+        height: auto;
+    }
+
+    /*About_us*/
+    .about_us .about {
+        padding: 1.5rem 3rem;
+        font-size: 1.5rem;
+    }
+
+    .about_us h2 {
+        font-size: 3rem;
+        max-width: 500px;
+    }
+
+    .about_us p {
+        max-width: 330px;
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+    .about_us .read_more {
+        padding: 1.4rem 2rem;
+        font-size: 1.5rem;
+    }
+
+    .gridbox .city_div {
+        max-width: 328px;
+        width: 100%;
+        height: 350px;
+    }
+
+    .gridbox {
+        max-width: 300px;
+        height: 1500px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        margin-bottom: 6rem;
+    }
+
+    .bottom {
+        transform: translateY(0);
+    }
+
+    .about_us {
+        margin-bottom: 3rem;
+    }
+
+    /*gridbox2*/
+
+    .gridbox2 {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+        padding: 100px 17px;
+        margin-top: 900px;
+    }
+
+    /*Our table*/
+    .stats {
+        padding: 50px 20px;
+    }
+
+    /*Our details*/
+    .our_details {
+        padding: 50px 15px;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+        height: auto;
+    }
+
+    .check_our_details img {
+        max-width: 320px;
+        height: auto;
+    }
+
+    /*voluptatem*/
+    .voluptatem {
+        font-size: 2rem;
+        max-width: 320px;
+        height: auto;
+        line-height: 1.2;
+        color: #10058c;
+    }
+
+    .voluptatem_p {
+        width: 320px;
+    }
+
+    .lorem_p {
+        width: 320px;
+    }
+
+    .ullamco {
+        max-width: 320px;
+        line-height: 1.5;
+        font-weight: 500;
+        color: #666;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .voluptatem_p2 {
+        font-size: 1.5rem;
+        max-width: 320px;
+    }
+
+    /*Galerry_section*/
+    .gallery-section {
+        padding: 100px 25px;
+    }
+
+    .gallery-grid {
+        gap: 5px;
+    }
+
+    /*Galerry_section*/
+    .testimonials {
+        padding: 50px 8cqi;
+        height: 450px;
+    }
+
+    .check_our_team {
+        padding: 100px 18px;
+    }
+
+    /*plan_div*/
+    .plan_div {
+        max-width: 1400px;
+        padding: 100px 27px;
+    }
+
+    /*Frequently_asked*/
+    .frequently_asked {
+        padding: 10px 15px;
+        display: flex;
+        column-gap: 4rem;
+    }
+
+    .frequently_image {
+        padding: 0 auto;
+        margin: 0;
+        max-width: 330px;
+    }
+
+    .frequently_asked_p {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .frequently_questions_div {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .info {
+        width: 85%;
+        padding: 20px 15px;
+        margin-left: 1rem;
+    }
+
+    /*check_our_contact*/
+    .check_our_contact {
+        padding: 100px 20px;
+    }
+
+    /*Form*/
+    .contact-form {
+        max-width: 300px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .flexbox {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    /*footer*/
+    footer {
+        padding: 30px 20px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+
+    .subscribe {
+        font-size: 1.3rem;
+        max-width: 320px;
+    }
+
+    .subscribe_div {
+        max-width: 350px;
+    }
+
+    .last_footer {
+        padding: 30px 20px;
+    }
+
+    .copyright {
+        font-size: 1.2rem;
+    }
+
+    .designed {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .hamburger .bi-list {
+        font-size: 2.1rem;
+    }
+
+    /*aside*/
+    aside {
+        padding: 0 15px;
+        height: 1180px;
+    }
+
+    /*logo*/
+    .logo h2 {
+        color: white;
+        font-size: 2.1rem;
+    }
+
+    /*Hero img*/
+    .hero-image img {
+        max-width: 290px;
+        height: auto;
+        width: 100%;
+    }
+
+    .fixed_box {
+        position: fixed;
+        max-width: 1536px;
+        height: 60px;
+    }
+
+    .navigation {
+        padding: 0 2rem;
+    }
+
+    /*aside*/
+    .aside_bootslander h1 {
+        font-size: 3rem;
+    }
+
+    .aside_bootslander p {
+        font-size: 2.2rem;
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .whitedivv {
+        margin-top: 50px;
+        padding: 0 15px;
+        height: auto;
+    }
+
+    aside {
+        height: 1100px;
+    }
+
+    .aside_bootslander p {
+        font-size: 2.1rem;
+        max-width: 300px;
+    }
+
+    .buttons button {
+        padding: 1.4rem 3rem;
+        font-size: 1.4rem;
+    }
+
+    .buttons {
+        column-gap: 1.4rem;
+    }
+
+    /*About_us*/
+    .about_us .about {
+        padding: 1.5rem 3rem;
+        font-size: 1.5rem;
+    }
+
+    .about_us h2 {
+        font-size: 2.7rem;
+        max-width: 500px;
+    }
+
+    .about_us p {
+        max-width: 300px;
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+    .about_us .read_more {
+        padding: 1.4rem 2rem;
+        font-size: 1.5rem;
+    }
+
+    .gridbox .city_div {
+        max-width: 270px;
+        width: 100%;
+        height: 300px;
+        padding: 1rem;
+    }
+
+    .gridbox {
+        max-width: 280px;
+        height: 1500px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        margin-bottom: 6rem;
+    }
+
+    .gridbox .image {
+        width: 6rem;
+        height: 6rem;
+        margin-left: 1rem;
+    }
+
+    .gridbox .image i,
+    .gridbox .image svg {
+        font-size: 2rem;
+    }
+    .gridbox h2 {
+        font-size: 2rem;
+        padding-left: 1rem;
+    }
+    .gridbox p {
+        font-size: 1.4rem;
+        max-width: 270px;
+        padding-left: 1rem;
+    }
+    .bottom {
+        transform: translateY(0);
+    }
+
+    .about_us {
+        margin-bottom: 3rem;
+    }
+
+    /*gridbox2*/
+
+    .gridbox2 {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 2fr));
+        padding: 100px 17px;
+        margin-top: 900px;
+    }
+
+    /*Our table*/
+    .stats {
+        padding: 50px 20px;
+    }
+
+    /*Our details*/
+    .our_details {
+        padding: 50px 15px;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+        height: auto;
+    }
+
+    .check_our_details img {
+        max-width: 280px;
+        height: auto;
+    }
+
+    /*voluptatem*/
+    .voluptatem {
+        font-size: 2rem;
+        max-width: 280px;
+        height: auto;
+        line-height: 1.2;
+        color: #10058c;
+    }
+
+    .voluptatem_p {
+        width: 300px;
+    }
+
+    .lorem_p {
+        max-width: 280px;
+    }
+
+    .ullamco {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .voluptatem_p2 {
+        font-size: 1.5rem;
+        max-width: 290px;
+    }
+
+    /*Galerry_section*/
+    .gallery-section {
+        padding: 100px 25px;
+    }
+
+    .gallery-grid {
+        gap: 5px;
+    }
+
+    /*Galerry_section*/
+    .testimonials {
+        padding: 50px 15px;
+        height: 450px;
+    }
+
+    .check_our_team {
+        padding: 100px 18px;
+    }
+
+    /*plan_div*/
+    .plan_div {
+        max-width: 1400px;
+        padding: 100px 27px;
+        height: 2150px;
+    }
+
+    /*Frequently_asked*/
+    .frequently_asked {
+        padding: 10px 15px;
+        display: flex;
+        column-gap: 4rem;
+    }
+
+    .frequently_image {
+        padding: 0 auto;
+        margin: 0;
+        max-width: 290px;
+    }
+
+    .frequently_asked_p {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .frequently_questions_div {
+        max-width: 255px;
+        width: 100%;
+    }
+
+    .info {
+        width: 85%;
+        padding: 20px 15px;
+        margin-left: 1rem;
+    }
+
+    /*check_our_contact*/
+    .check_our_contact {
+        padding: 100px 20px;
+    }
+
+    /*Form*/
+    .contact-form {
+        max-width: 260px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .flexbox {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    /*footer*/
+    footer {
+        padding: 30px 15px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+
+    .subscribe {
+        font-size: 1.3rem;
+        max-width: 300px;
+    }
+
+    .subscribe_div {
+        max-width: 290px;
     }
 
     .last_footer {
